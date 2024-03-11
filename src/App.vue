@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <div class="logobar"><img alt="Vue logo" src="./assets/logo.png"></div>
   <ResLib msg="Welcome to Your Vue.js App"/>
 </template>
 
@@ -23,4 +23,5 @@ export default {
   color: #222;
   margin: 10px;
 }
+
 </style>
