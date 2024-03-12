@@ -76,18 +76,17 @@
 
 .main-bg {
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 20px 20px 20px 20px;
   margin: 0px;}
 
 .mainbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 10px 10px 10px;
 }
 
 .mainbar h1 {
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 0px;
 }
 
@@ -100,9 +99,7 @@
   /* Adjust other styling as needed for list view */
 }
 
-.search-field {
-  padding: 8px 20px 10px 8px;
-}
+
 
 .rh-title a {
   margin-top: 0;
@@ -121,7 +118,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   /* This will distribute space around items */
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .item {
@@ -134,6 +131,8 @@
   font-size: .9em;
   border: 1px solid #e6e6e6;
   background: #ffffff;
+  /* add a shadow to the item */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .item-description {
@@ -420,10 +419,9 @@
   margin: 0 10px;
 }
 .toolbar {
-  display: flex-inline;
+  display: inline;
   justify-content: left;
   align-items: left;
-  margin: 10px 10px 40px 20px;
 }
 .search-field {
   display: inline;
