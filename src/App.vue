@@ -4,7 +4,8 @@
 </template>
 
 <script>
-import ResLib from './components/ResourceLibrary.vue'
+import ResLib from './components/SearchResults.vue'
+import '@fortawesome/fontawesome-free/css/all.css';
 
 export default {
   name: 'App',
@@ -21,7 +22,23 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #222;
-  margin: 10px;
 }
 
-</style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.logobar {
+  padding: 20px 20px 15px 20px;
+  background-color: #ffffff;
+}
+
+.logobar img {
+  width: 175px;
+  height: auto;
+  display: inline;
+
+}
+</style>./components/SearchResults.vue
