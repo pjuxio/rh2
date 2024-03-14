@@ -47,10 +47,12 @@
       <div :class="['category', categoryClass(item.Categories)]">
         <span v-html="item.Categories"></span>
       </div>
+      <!--To do add icons 
           <div class="icons-container">
             <i class="fa fa-heart icon-heart"></i>
             <i class="fa fa-plus icon-plus"></i>
           </div>
+          -->
         </div>
         <img v-if="viewMode === 'gallery'" :src="genericImage" class="resourceImg" alt="Example">
         <h2 class="rh-title"><a :href="item.Link" target="_blank">{{ item.Title }}</a></h2>
